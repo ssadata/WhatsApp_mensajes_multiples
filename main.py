@@ -15,6 +15,7 @@ browser = webdriver.Chrome(executable_path = '/usr/bin/chromedriver')
 browser.maximize_window()
 
 browser.get('https://web.whatsapp.com/')
+#Acá pedirá la validación del codigo QR de WhatsAppWeb... Pronto será corregido. 
 
 time.sleep(5)
 
