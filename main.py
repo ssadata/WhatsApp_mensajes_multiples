@@ -20,7 +20,8 @@ browser.get('https://web.whatsapp.com/')
 time.sleep(5)
 
 ########################### LECTURA GRUPOS Y TEXTO  ##############################
-	
+# Tanto groups.txt como msg.txt son archivos previamente definidos
+
 with open('groups.txt', 'r', encoding='utf8') as f:
     groups = [group.strip() for group in f.readlines()]
 
